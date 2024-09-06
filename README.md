@@ -1,6 +1,6 @@
-# AutoSubber
+# EasySubber
 
-AutoSubber is a Python-based tool that allows you to generate `.srt` subtitle files from video files in various formats (e.g., `.mkv`, `.mp4`, `.avi`). It utilizes OpenAI's Whisper model for speech-to-text transcription, FFmpeg for audio extraction, and Tkinter for a simple graphical user interface (GUI).
+EasySubber is a Python-based tool that allows you to generate `.srt` subtitle files from video files in various formats (e.g., `.mkv`, `.mp4`, `.avi`). It utilizes OpenAI's Whisper model for speech-to-text transcription, FFmpeg for audio extraction, and Tkinter for a simple graphical user interface (GUI).
 
 ## Features
 
@@ -12,7 +12,7 @@ AutoSubber is a Python-based tool that allows you to generate `.srt` subtitle fi
 
 ## Requirements
 
-Before using AutoSubber, make sure you have the following installed:
+Before using EasySubber, make sure you have the following installed:
 
 - **Python 3.x**
 - [Whisper](https://github.com/openai/whisper)
@@ -34,15 +34,15 @@ To install FFmpeg:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ignabelitzky/auto-subber.git
-cd auto-subber
+git clone https://github.com/ignabelitzky/easy-subber.git
+cd easy-subber
 ```
 2. Run the program:
 ```
 python main.py
 ```
 3. Select the video file you want to process.
-4. AutoSubber will generate an `.srt` subtitle file in the same directory as the video.
+4. EasySubber will generate an `.srt` subtitle file in the same directory as the video.
 
 ## How It Works
 
@@ -53,7 +53,7 @@ python main.py
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve AutoSubber.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve EasySubber.
 
 ## License
 
